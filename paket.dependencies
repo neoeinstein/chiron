@@ -20,3 +20,12 @@ group Test
   nuget Unquote
   nuget xunit
   nuget xunit.runner.console
+
+group Benchmarks
+
+  content: none
+  source http://nuget.org/api/v2
+
+  nuget BenchmarkDotNet
+  nuget BenchmarkDotNet.Diagnostics.Windows
+  nuget Newtonsoft.Json ~> 9.0

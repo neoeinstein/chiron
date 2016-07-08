@@ -1,4 +1,4 @@
-﻿[<FsCheck.Xunit.Arbitrary(typeof<Chiron.Testing.Arbitrary>)>]
+﻿[<FsCheck.Xunit.PropertiesAttribute(Arbitrary=[|typeof<Chiron.Testing.Arbitrary>|])>]
 module Chiron.Tests.Properties
 
 open Xunit

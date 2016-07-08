@@ -1,0 +1,6 @@
+Aether
+FParsec
+group Benchmarks
+    BenchmarkDotNet
+    BenchmarkDotNet.Diagnostics.Windows
+    Newtonsoft.Json
